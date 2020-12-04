@@ -1,0 +1,12 @@
+#spring.profiles.active=${profiles.active}
+# Tomcat
+server:
+  port: 9707
+
+client:
+  file:
+    json: /home/hncr/workspace/deeplearning_paper/alpr-unconstrained/My_car_template_recongnize/result.json
+    img: /home/hncr/workspace/deeplearning_paper/alpr-unconstrained/My_car_template_recongnize/result.json
+
+service:
+  uri: http://192.168.1.179:9701/lightPole/parkingSpaceRecognition

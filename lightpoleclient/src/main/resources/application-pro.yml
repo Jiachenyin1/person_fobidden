@@ -1,0 +1,12 @@
+#spring.profiles.active=${profiles.active}
+# Tomcat
+server:
+  port: 9707
+
+client:
+  file:
+    json: F:\Program Files (x86)\desktop\temp.txt
+    img: F:\Program Files (x86)\desktop\doc\bz
+
+service:
+  uri: http://192.168.1.179:9701/lightPole/parkingSpaceRecognition
